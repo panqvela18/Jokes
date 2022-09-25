@@ -1,0 +1,55 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 30px;
+    background-color: #686de0;
+}
+
+.container{
+    background-color: #fff;
+    padding: 50px 20px;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:  10px 20px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%);
+}
+
+h3{
+    opacity: 0.5;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+}
+
+.jokeBtn{
+    color: #fff;
+    background-color: rgb(188, 102, 188);
+    border: none;
+    border-radius: 5px;
+    padding: 14px 40px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%);
+}
+
+.jokeBtn:focus{
+    outline: none;
+}
+
+.jokeBtn:active{
+    transform: scale(0.98);
+}
